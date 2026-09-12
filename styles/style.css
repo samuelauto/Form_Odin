@@ -2,3 +2,92 @@
     font-family: odin-logo;
     src: url(../fonts/norse/Norsebold.otf);
 }
+
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.background-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.image_background{
+    width: 700px;
+    height: 1000px;
+}
+
+.logo-odin{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    background: black;
+    opacity: 0.5;
+    top: 25%;
+}
+
+.text-odin{
+    width: 50%;
+    font-family: 'odin-logo';
+    color: white;
+    font-size: 90px;
+    margin: 0px;
+}
+.text-odin p{
+    margin: 0px;
+}
+
+.image-odin{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content{
+    display: flex;
+    flex:1;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-up{
+    width: 100%;
+    padding-top: 127px;
+    background-color: aquamarine;
+    font-size: 30px;
+    padding-left: 100px;
+    padding-right: 20px;
+}
+
+.form-section{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.first-row{
+    display: flex;
+    margin: 5px;
+}
+
+.second-row{
+    display: flex;
+    margin: 5px;
+}
+
+.third-row{
+    display: flex;
+    margin: 5px;
+}
+
+label{
+    margin: 5px;
+}
