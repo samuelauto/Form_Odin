@@ -71,23 +71,79 @@ body{
     display: flex;
     width: 100%;
     align-items: center;
+    border-bottom: 2px solid;
+    opacity: 0.5;
+}
+
+form{
+    width: 100%;
 }
 
 .first-row{
     display: flex;
     margin: 5px;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 350px;
 }
 
 .second-row{
     display: flex;
     margin: 5px;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 350px;
 }
 
 .third-row{
     display: flex;
     margin: 5px;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 350px;
+}
+
+h3{
+    padding-left: 40px;
 }
 
 label{
+    font-family: 'Times New Roman';
     margin: 5px;
+}
+
+input{
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid #66afe9;
+    box-shadow: 0 0 4px;
+}
+
+input:required{
+    outline: none;
+    border: 1px solid red;
+}
+
+.text-down{
+    display: flex;
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 60px;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+button{
+    width: 160px;
+    height: 50px;
+    font-size: medium;
+}
+
+.new-account{
+    padding-top:10px;
 }
